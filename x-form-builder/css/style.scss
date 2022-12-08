@@ -1,0 +1,345 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: #f1f1f1;
+
+    .container {
+        // display: grid;
+        // grid-template-columns: 2fr 5fr;
+        margin-top: 3%;
+        display: flex;
+
+        .custom_Editors {
+            margin-left: 3%;
+            margin-right: 3%;
+            border-radius: 3px;
+            border: 1px solid grey;
+            text-align: center;
+            position: fixed;
+            width: 25%;
+
+            h2 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: lightgray;
+                border-bottom: 1px solid gray;
+            }
+
+            .form_Elements {
+                margin-top: 2%;
+                margin-left: 3%;
+                margin-right: 3%;
+                border-radius: 2%;
+                border: 1px solid grey;
+
+                p {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    color: blue;
+                }
+
+                .boxes {
+                    background-color: white;
+                    border: 1px solid grey;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+
+                    .elementBoxes {
+                        border: 1px solid grey;
+                        width: 30%;
+                        height: 100px;
+                        margin-top: 10%;
+                        margin-left: 3%;
+
+                        p {
+                            color: black;
+                        }
+                    }
+
+                    .Checkbox {
+                        margin-bottom: 10%;
+                    }
+                }
+            }
+
+            .theme_Setting {
+                margin-left: 3%;
+                margin-right: 3%;
+                border-radius: 2%;
+                border: 1px solid grey;
+                background-color: white;
+
+                p {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    color: blue;
+                }
+
+                .ColorBox {
+
+                    border: 1px solid grey;
+                    width: 90%;
+                    height: 120px;
+                    margin-left: 5%;
+                    margin-bottom: 5%;
+                    border-radius: 6px;
+
+                    p {
+                        color: black;
+                        background-color: #f1f1f1;
+                        border-bottom: 1px solid grey;
+                    }
+
+                    .colorBtn {
+                        display: flex;
+
+                        button {
+                            width: 10%;
+                            height: 30px;
+                            margin-left: 5%;
+                            margin-top: 3%;
+                            border: 1px solid grey;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+
+        .layout {
+            border: 1px solid grey;
+            // margin-right: 2%;
+            border-radius: 3px;
+            width: 70%;
+            margin-left: 30%;
+
+            .action_btn {
+                margin-top: 1%;
+
+                .Save {
+                    background-color: rgb(14, 139, 197);
+                    color: white;
+                    width: 10%;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: 0px;
+                    margin-left: 65%;
+                    cursor: pointer;
+                }
+
+                .Publish {
+                    @extend .Save;
+                    background-color: rgb(61, 199, 48);
+                    margin-left: 0px;
+                    cursor: pointer;
+                }
+
+                .Cancel {
+                    @extend .Save;
+                    background-color: rgb(81, 85, 81);
+                    margin-left: 0px;
+                    cursor: pointer;
+                }
+            }
+
+            .headerdiv {
+                margin-left: 2%;
+                margin-top: 2%;
+                width: 95%;
+                height: 10rem;
+                background-color: lightgray;
+                display: flex;
+
+                .Img_div {
+                    border: dashed 2px grey;
+                    width: 33%;
+                    height: 8rem;
+                    margin-left: 3%;
+                    margin-right: 3%;
+                    margin-top: 1.5%;
+                }
+            }
+
+            .main_div {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: white;
+                margin-left: 2%;
+                margin-top: 2%;
+                width: 95%;
+                // height: 50%;
+
+                .main {
+                    // margin-top: 40%;
+                    height: 25rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+
+                    background-color: white;
+
+                    p {
+                        background-color: white
+                    }
+
+                    input {
+                        width: 90px;
+                    }
+                }
+
+                .documents {
+                    background-color: white;
+                    border: '2px solid grey';
+                    border-style: 'dashed';
+
+
+
+                    .register_div {
+                        margin-top: 2%;
+
+                        background-color: white;
+
+                        .register_btn {
+                            background-color: rgb(231, 163, 16);
+                            color: white;
+                            width: 90%;
+                            height: 30px;
+                            border-radius: 5px;
+                            margin-left: 5%;
+                            border: 0px;
+                            cursor: pointer;
+
+                        }
+                    }
+
+                    .textDrop_div {
+                        height: 90%;
+                    }
+
+                }
+            }
+
+            .footerdiv {
+                @extend .headerdiv;
+
+                .footer_Img_div {
+                    border: dashed 2px grey;
+                    width: 30%;
+                    height: 8rem;
+                    margin-left: 3%;
+                    margin-right: 3%;
+                    margin-top: 1.5%;
+
+                }
+            }
+        }
+    }
+
+
+    .edit_popup {
+
+        border-radius: 4px;
+        top: 0;
+        width: 35%;
+        background-color: white;
+        position: fixed;
+        z-index: 3;
+        margin-top: 10%;
+        margin-left: 35%;
+        display: none;
+        border: 2px solid black;
+
+
+        .popup_h1 {
+            background-color: rgb(71, 135, 231);
+            height: 60px;
+        }
+
+        .p_popup {
+            background-color: white;
+            color: black;
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+
+        .input_popup {
+            background-color: white;
+            color: black;
+            width: 90%;
+            height: 30px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 3%;
+            border-radius: 5px;
+            border-color: grey;
+        }
+
+        .Checkbox {
+
+            display: flex;
+        }
+
+        .btn_popup_s {
+            width: 100px;
+            height: 40px;
+            background-color: rgb(71, 135, 231);
+            border: 0;
+            border-radius: 3px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            margin-left: 60%;
+            cursor: pointer;
+
+        }
+
+        .btn_popup_c {
+            @extend .btn_popup_s;
+            background-color: grey;
+            width: 60px;
+            margin-left: 0%;
+        }
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    html {
+        font-size: 70%;
+    }
+    body {
+        .container {
+    
+
+            .custom_Editors {
+                width: 15%;
+                .form_Elements {
+
+
+                    .boxes {
+                       display: block;
+                        .elementBoxes {
+                            width: 90%;
+                            height: 10%;
+                        }
+                    }
+                }
+            }
+
+            .layout {
+               
+                width: 84%;
+                margin-left: 19%;
+            }
+        }
+    }
+
+}

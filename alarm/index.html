@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="clock">    
+                <div class="time">
+                    <h1>Date</h1>
+                    <h3 class="date"></h3>
+                    <h1>Time</h1>
+                    <span class="hours"></span>
+                    <span>:</span>
+                    <span class="min"></span>
+                    <span>:</span>
+                    <span class="sec"></span>
+                    <span class="meridiem"></span>
+                </div>
+             </section>
+             <section class="alarm">
+                 <h1>Alarm</h1>
+                <h3>Set Time</h3>
+                
+                <select class="alarmHr" name="" id="praSelect" ></select>
+                <span>Hours</span>
+                
+                <select class="alarmMin" name="" ></select>
+                <span>Min</span>
+
+                <select class="alarmSec" name="" ></select>
+                <span>Sec</span>
+              
+                <select class="alarmAmPm" name="" id="">
+                    <option value="Am">Am</option>
+                    <option value="Pm">Pm</option>
+                </select>
+                <select name="Day" class="alarmDay">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+                <button class="setBtn" onclick="setAlarm()">Set</button>
+                <button class="clrBtn" onclick="clearAlarm()">Clear</button>
+             </section>
+        </div>
+     
+        
+        <script src="script/ass.js"></script>
+    </body>
+</html>

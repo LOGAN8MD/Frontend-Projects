@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.clock{
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;
+}
+.alarm{
+    border: 2px solid black;
+    width: 40%;
+}
+input{
+    width: 10%;
+    margin-left: 2%;
+}
+
+button{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 30%;
+    height: 15%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.setBtn{
+    background-color:aqua;
+}
+.clrBtn{
+    background-color:red;
+}
+select{
+    margin-left: 5%;
+    
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FormBuilder</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="custom_Editors">
+            <h2>Custom Editors</h2>
+            <div class="form_Elements">
+                <p>Form Elements</p>
+                <div class="boxes">
+                    <div id="logo" class="logo elementBoxes" ondragstart="dragstart(event,'logo')"
+                        ondragend="dragend(event,'logo')" draggable="true">
+                        <p>Logo</p>
+                    </div>
+                    <div id="textdiv" class="textbox elementBoxes" ondragstart="dragstart(event,'textdiv')"
+                        ondragend="dragend(event,'textdiv')" draggable="true">
+                        <p>Text <br>box</p>
+                    </div>
+                    <!-- <div class="Dropdown elementBoxes">
+                        <p>Dropdown</p>
+                    </div> -->
+                    <div class="Radio_List elementBoxes" ondragstart="dragstart(event,'textdiv')"
+                        ondragend="dragend(event,'textdiv')" draggable="true">
+                        <p>Radio<br>List</p>
+                    </div>
+                    <div class="Checkbox elementBoxes">
+                        <p>Check <br>box</p>
+                    </div>
+                </div>
+            </div><!-- form_Elements -->
+            <!-- <div class="theme_Setting">
+                <p>Theme Settings</p>
+                <div class="ThemeColor ColorBox">
+                    <p>Theme Color</p>
+                    <div class="colorBtn">
+                        <button style="background-color:red ;"></button>
+                        <button style="background-color:rgb(45, 160, 212) ;"></button>
+                        <button style="background-color:rgb(238, 204, 11) ;"></button>
+                        <button style="background-color:rgb(199, 189, 189) ;"></button>
+                    </div>
+                </div>
+                <div class="Header ColorBox">
+                    <p>Header</p>
+                    <div class="colorBtn">
+                        <button style="background-color:rgb(255, 255, 255) ;"></button>
+                        <button style="background-color:rgb(62, 153, 189) ;"></button>
+                        <button style="background-color:rgb(255, 187, 0) ;"></button>
+                        <button style="background-color:rgb(199, 189, 189);"></button>
+                    </div>
+                </div>
+                <div class="Main ColorBox">
+                    <p>Main</p>
+                    <div class="colorBtn">
+                        <button style="background-color:rgb(255, 255, 255)  ;"></button>
+                        <button style="background-color:rgb(62, 153, 189);"></button>
+                        <button style="background-color:rgb(255, 187, 0)  ;"></button>
+                        <button style="background-color:rgb(199, 189, 189) ;"></button>
+                    </div>
+                </div>
+                <div class="Footer ColorBox">
+                    <p>Footer</p>
+                    <div class="colorBtn">
+                        <button style="background-color:red ;"></button>
+                        <button style="background-color:rgb(62, 153, 189);"></button>
+                        <button style="background-color:rgb(255, 187, 0)  ;"></button>
+                        <button style="background-color:rgb(199, 189, 189);"></button>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+
+        <div class="layout">
+            <div class="action_btn">
+                <button class="Save" onclick="storeData()">Save</button>
+                <a href="preview.html"><button class="Publish">Publish</button></a>
+                <button class="Cancel" onclick="cancel()">Cancel</button>
+            </div>
+
+            <div class="headerdiv">
+                <div id="header_Img_1" class="Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'header_Img_1','logo')">
+
+                </div>
+                <div id="header_Img_2" class="Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'header_Img_2','logo')">
+
+                </div>
+                <div id="header_Img_3" class="Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'header_Img_3','logo')">
+
+                </div>
+            </div>
+
+            <div class="main_div">
+                <div class="main">
+                    <p>Choose Web Banner image to uploade. <br>If no banner image is uploaded then login will be display
+                        in the <br>center</p>
+                    <input id="banner" type="file" placeholder="Choose file" onchange="change(event,'banner')">
+                </div>
+                <div class="documents">
+                    <div class="register_div">
+                        <button class="register_btn" onclick="register_Boxes()">Register</button>
+                    </div>
+                    <div class="textDrop_div" ondragover="dragover(event)">
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="footerdiv">
+                <div id="footer_Img_1" class="footer_Img_div Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'footer_Img_1','logo')">
+                </div>
+                <div id="footer_Img_2" class="footer_Img_div Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'footer_Img_2','logo')">
+                </div>
+                <div id="footer_Img_3" class="footer_Img_div Img_div" ondragover="dragover(event)"
+                    ondrop="drop(event,'footer_Img_3','logo')">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container2">
+
+    </div>
+
+    <script src="script/service.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

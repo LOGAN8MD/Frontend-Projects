@@ -1,0 +1,434 @@
+* {
+  font-family: inter;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right {
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.right .right-header {
+  height: 19%;
+  margin-top: 2rem;
+}
+.right .right-header .pic {
+  border: 2px solid #ffd801;
+  width: 85%;
+  display: flex;
+  border-left: none;
+}
+.right .right-header .pic img {
+  width: 55%;
+  border-radius: 50%;
+  margin: auto;
+}
+.right .right-main {
+  margin: 1rem;
+}
+.right .right-main .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right .right-main .contacts {
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+.right .right-main .contacts .small-yellow {
+  background-color: #ffd801;
+  color: #ffd801;
+  height: 0.5%;
+  width: 10%;
+  position: absolute;
+  left: 45%;
+}
+.right .right-main .contacts .fa-solid {
+  color: #ffd801;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.right .right-main .contacts .flag_and_heading {
+  display: flex;
+  gap: 0.5rem;
+  left: 23%;
+}
+.right .right-main .contacts .flag_and_heading .left-flag {
+  height: 32px;
+  right: 96%;
+  width: 16px;
+}
+.right .right-main .contacts .flag_and_heading .right-flag {
+  height: 32px;
+  width: 16px;
+  left: 63%;
+}
+.right .right-main .contacts .flag_and_heading .heading_right {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.right .right-main .contacts .flag_and_heading .right-heading {
+  color: #ffd801;
+  font-size: 1.3rem;
+}
+.right .right-main .education {
+  text-align: center;
+  padding: 1rem;
+}
+.right .right-main .education .flag_and_heading {
+  display: flex;
+  gap: 0.5rem;
+  left: 20%;
+}
+.right .right-main .education .flag_and_heading .left-flag {
+  height: 32px;
+  right: 96%;
+  width: 16px;
+}
+.right .right-main .education .flag_and_heading .right-flag {
+  height: 32px;
+  width: 16px;
+  left: 69%;
+}
+.right .right-main .education .flag_and_heading .heading_right {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.right .right-main .education .flag_and_heading .right-heading {
+  color: #ffd801;
+  font-size: 1.3rem;
+}
+.right .right-main .education .edu {
+  padding: 1rem;
+  font-size: 1rem;
+}
+.right .right-main .skills {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+}
+.right .right-main .skills .flag_and_heading {
+  display: flex;
+  left: 15%;
+  gap: 0.5rem;
+}
+.right .right-main .skills .flag_and_heading .left-flag {
+  height: 32px;
+  right: 96%;
+  width: 19px;
+}
+.right .right-main .skills .flag_and_heading .right-flag {
+  height: 32px;
+  width: 18px;
+  left: 73%;
+}
+.right .right-main .skills .flag_and_heading .heading_right {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 70%;
+}
+.right .right-main .skills .flag_and_heading .right-heading {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+}
+.right .right-main .skills .skill_chart {
+  margin-top: 10%;
+}
+.right .right-main .skills .skill_chart .skills-section {
+  padding: 12px;
+  background-color: #ffd801;
+  color: #202020;
+  margin-top: 5%;
+  width: 10rem;
+  font-size: 0.7rem;
+  text-align: initial;
+}
+.right .right-main .skills .skill_chart .skills-section::after {
+  content: "-----------------------";
+  margin-left: 1rem;
+  height: 0.3rem;
+  width: 57%;
+  background-color: #202020;
+  color: #202020;
+}
+.right .right-main .skills .skill_chart #skill2::after {
+  content: "----------------------";
+  margin-left: 19%;
+  top: 50.5%;
+  width: 52%;
+  color: #202020;
+}
+.right .right-main .skills .skill_chart #skill3::after {
+  content: "---------------------";
+  margin-left: 24%;
+  top: 68.5%;
+  width: 47%;
+  color: #202020;
+}
+.right .right-main .skills .skill_chart #skill4::after {
+  content: "------------------";
+  margin-left: 18%;
+  top: 85.5%;
+  width: 45%;
+  color: #202020;
+}
+.right .right-main .skills .skill_chart #skill6::after {
+  content: "------------------";
+  margin-left: 8%;
+  top: 85.5%;
+  width: 25%;
+  color: #202020;
+}
+
+.font1 {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.font2 {
+  font-size: 1rem;
+}
+
+.font2-white {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.font3-white {
+  font-size: 1rem;
+  color: white;
+}
+
+.font3 {
+  color: white;
+}
+
+.font4 {
+  font-size: 0.8rem;
+  color: #b3b3b3;
+}
+
+.blackfont {
+  color: #202020;
+}
+
+.greyfont {
+  color: #70889b;
+}
+
+.right-fonts {
+  font-size: 2.2rem;
+}
+
+.under_line {
+  border-bottom: 0.5px solid #202020;
+}
+
+body .container {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 60vw;
+  margin: auto;
+}
+body .container .left {
+  display: flex;
+  flex-direction: column;
+}
+body .container .left .left-header {
+  min-height: 19%;
+  position: relative;
+}
+body .container .left .left-header .blckBoxLeft {
+  position: absolute;
+  top: 0px;
+  width: 20%;
+  background-color: #202020;
+  height: 100%;
+  position: absolute;
+  color: rgb(0, 0, 0);
+}
+body .container .left .left-header .centerBox {
+  background-color: #ffd801;
+  margin-bottom: 1.2rem;
+  width: 87%;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  height: 64%;
+}
+body .container .left .left-header .centerBox .name {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  letter-spacing: 0.2rem;
+}
+body .container .left .left-header .centerBox #post {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+body .container .left .left-main {
+  display: flex;
+  flex-direction: column;
+  border-left: 1rem solid #ffd801;
+  height: 81%;
+}
+body .container .left .left-main .profile, body .container .left .left-main .work_experiance_section {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+body .container .left .left-main .profile #about, body .container .left .left-main .work_experiance_section #about {
+  margin-top: 0.5rem;
+  letter-spacing: 0.5px;
+}
+body .container .left .left-main .profile .font2, body .container .left .left-main .work_experiance_section .font2 {
+  font-size: 0.9rem;
+}
+body .container .left .left-main .profile .about, body .container .left .left-main .work_experiance_section .about {
+  border-top: 1px solid #202020;
+}
+body .container .left .left-main .work_ex_heading {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+body .container .left .left-main .work_experiance_section {
+  border-top: 1px solid #202020;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  margin-top: 1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box {
+  display: flex;
+}
+body .container .left .left-main .work_experiance_section .expriance_box #shape1 {
+  margin-top: 1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes {
+  border-right: 1px solid #202020;
+  width: 20%;
+  font-size: 0.5rem;
+  position: relative;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes section {
+  margin-top: 1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes .shape {
+  text-align: center;
+  color: white;
+  width: 58%;
+  position: relative;
+  background-color: #202020;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes .shape::before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  border-top: 1rem solid transparent;
+  border-bottom: 1.15rem solid transparent;
+  border-left: 1rem solid #202020;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes .shape::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  left: 165%;
+  bottom: 25%;
+  background-color: #202020;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .shapes .shape p {
+  font-size: 0.8rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp, body .container .left .left-main .work_experiance_section .expriance_box .exp1 {
+  width: 80%;
+  margin-top: 1.6rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp #CA, body .container .left .left-main .work_experiance_section .expriance_box .exp1 #CA {
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp #e-cell, body .container .left .left-main .work_experiance_section .expriance_box .exp1 #e-cell {
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp #CS, body .container .left .left-main .work_experiance_section .expriance_box .exp1 #CS {
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp p, body .container .left .left-main .work_experiance_section .expriance_box .exp1 p {
+  margin-left: 2rem;
+}
+body .container .left .left-main .work_experiance_section .expriance_box .exp1 {
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 1010px) {
+  body .container {
+    grid-template-columns: 1fr;
+  }
+  body .container .left .left-header {
+    min-height: 25%;
+  }
+  body .container .left .left-header .centerBox {
+    width: 85%;
+    top: 3%;
+    left: 10%;
+    height: 90%;
+  }
+  body .container .right {
+    margin-top: 30%;
+  }
+  body .container .right .right-header .pic {
+    width: 93%;
+    margin: 1rem;
+    border-left: 2px solid #ffd801;
+  }
+  body .container .right .right-header .pic img {
+    width: 30%;
+  }
+  body .container .right .contacts {
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+  body .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  body .container .left .left-header {
+    height: 20vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+  html body .container .left .left-header {
+    height: 20vh;
+  }
+  html body .container .right .right-header .pic {
+    width: 90%;
+    border-left: 2px solid #ffd801;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 80%;
+  }
+  html body {
+    background-color: rgb(255, 255, 255);
+  }
+  html body .container .left .left-header {
+    height: 20vh;
+  }
+}/*# sourceMappingURL=style.css.map */

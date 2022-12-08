@@ -1,0 +1,264 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+body .container {
+  margin-top: 3%;
+  display: flex;
+}
+body .container .custom_Editors {
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 3px;
+  border: 1px solid grey;
+  text-align: center;
+  position: fixed;
+  width: 25%;
+}
+body .container .custom_Editors h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightgray;
+  border-bottom: 1px solid gray;
+}
+body .container .custom_Editors .form_Elements {
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 2%;
+  border: 1px solid grey;
+}
+body .container .custom_Editors .form_Elements p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: blue;
+}
+body .container .custom_Editors .form_Elements .boxes {
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body .container .custom_Editors .form_Elements .boxes .elementBoxes {
+  border: 1px solid grey;
+  width: 30%;
+  height: 100px;
+  margin-top: 10%;
+  margin-left: 3%;
+}
+body .container .custom_Editors .form_Elements .boxes .elementBoxes p {
+  color: black;
+}
+body .container .custom_Editors .form_Elements .boxes .Checkbox {
+  margin-bottom: 10%;
+}
+body .container .custom_Editors .theme_Setting {
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 2%;
+  border: 1px solid grey;
+  background-color: white;
+}
+body .container .custom_Editors .theme_Setting p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: blue;
+}
+body .container .custom_Editors .theme_Setting .ColorBox {
+  border: 1px solid grey;
+  width: 90%;
+  height: 120px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border-radius: 6px;
+}
+body .container .custom_Editors .theme_Setting .ColorBox p {
+  color: black;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid grey;
+}
+body .container .custom_Editors .theme_Setting .ColorBox .colorBtn {
+  display: flex;
+}
+body .container .custom_Editors .theme_Setting .ColorBox .colorBtn button {
+  width: 10%;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 3%;
+  border: 1px solid grey;
+}
+body .container .layout {
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 70%;
+  margin-left: 30%;
+}
+body .container .layout .action_btn {
+  margin-top: 1%;
+}
+body .container .layout .action_btn .Save, body .container .layout .action_btn .Cancel, body .container .layout .action_btn .Publish {
+  background-color: rgb(14, 139, 197);
+  color: white;
+  width: 10%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  margin-left: 65%;
+  cursor: pointer;
+}
+body .container .layout .action_btn .Publish {
+  background-color: rgb(61, 199, 48);
+  margin-left: 0px;
+  cursor: pointer;
+}
+body .container .layout .action_btn .Cancel {
+  background-color: rgb(81, 85, 81);
+  margin-left: 0px;
+  cursor: pointer;
+}
+body .container .layout .headerdiv, body .container .layout .footerdiv {
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 95%;
+  height: 10rem;
+  background-color: lightgray;
+  display: flex;
+}
+body .container .layout .headerdiv .Img_div, body .container .layout .footerdiv .Img_div {
+  border: dashed 2px grey;
+  width: 33%;
+  height: 8rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+body .container .layout .main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 95%;
+}
+body .container .layout .main_div .main {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+body .container .layout .main_div .main p {
+  background-color: white;
+}
+body .container .layout .main_div .main input {
+  width: 90px;
+}
+body .container .layout .main_div .documents {
+  background-color: white;
+  border: "2px solid grey";
+  border-style: "dashed";
+}
+body .container .layout .main_div .documents .register_div {
+  margin-top: 2%;
+  background-color: white;
+}
+body .container .layout .main_div .documents .register_div .register_btn {
+  background-color: rgb(231, 163, 16);
+  color: white;
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 5%;
+  border: 0px;
+  cursor: pointer;
+}
+body .container .layout .main_div .documents .textDrop_div {
+  height: 90%;
+}
+body .container .layout .footerdiv .footer_Img_div {
+  border: dashed 2px grey;
+  width: 30%;
+  height: 8rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1.5%;
+}
+body .edit_popup {
+  border-radius: 4px;
+  top: 0;
+  width: 35%;
+  background-color: white;
+  position: fixed;
+  z-index: 3;
+  margin-top: 10%;
+  margin-left: 35%;
+  display: none;
+  border: 2px solid black;
+}
+body .edit_popup .popup_h1 {
+  background-color: rgb(71, 135, 231);
+  height: 60px;
+}
+body .edit_popup .p_popup {
+  background-color: white;
+  color: black;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+body .edit_popup .input_popup {
+  background-color: white;
+  color: black;
+  width: 90%;
+  height: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 3%;
+  border-radius: 5px;
+  border-color: grey;
+}
+body .edit_popup .Checkbox {
+  display: flex;
+}
+body .edit_popup .btn_popup_s, body .edit_popup .btn_popup_c {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(71, 135, 231);
+  border: 0;
+  border-radius: 3px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 60%;
+  cursor: pointer;
+}
+body .edit_popup .btn_popup_c {
+  background-color: grey;
+  width: 60px;
+  margin-left: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  body .container .custom_Editors {
+    width: 15%;
+  }
+  body .container .custom_Editors .form_Elements .boxes {
+    display: block;
+  }
+  body .container .custom_Editors .form_Elements .boxes .elementBoxes {
+    width: 90%;
+    height: 10%;
+  }
+  body .container .layout {
+    width: 84%;
+    margin-left: 19%;
+  }
+}/*# sourceMappingURL=style.css.map */

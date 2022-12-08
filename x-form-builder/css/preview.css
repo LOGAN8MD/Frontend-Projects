@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+
+    border: 2px solid red;
+}
+header{
+    width: 100%;  
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    width: 30%;
+    margin-top: 2%;
+   visibility: hidden;
+  
+}
+
+.image{
+    width: 100%;
+    box-shadow: 10px 5px 5px grey;
+}
+
+
+main{
+display: flex;
+margin-top: 1%;
+margin-bottom: 3%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.footer{
+    width: 30%;
+    visibility: hidden;
+   margin-bottom: 2%;
+   
+}
+
+
+.main_comman{
+    width: 50%;
+    box-shadow: 10px 5px 5px grey;
+    visibility: hidden;
+}
+
+.form_div{
+   
+    width: 50%;
+}
+
+.form{
+    z-index: 2;
+    box-shadow: 10px 5px 5px grey;
+    width:70%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;  
+    border: 1px solid grey;
+    display: none;
+}
+
+.form h1{
+  color: rgb(61, 135, 231);
+}
+
+.register_btn{
+    margin-top: 3%;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(120, 183, 241);
+}
+.speaker_btn{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: rgb(135, 138, 141);
+}
+.textType{
+    width: 79%;
+    margin-left: 10%;
+}
+.textType h4{
+    margin-bottom: 1%;
+    text-align: left;
+}
+.textType input{
+    width:100%;
+    height: 30px;
+    margin-bottom: 2%;
+}
+.typeRadio{
+    margin-top: 2%;
+    width: 79%;
+    margin-left: 10%;
+    display: flex;
+}
+.typeRadio input{
+    margin-left: 3%;
+}
+.typeRadio h4{
+    margin-left: 1%;
+}
+
+.typecheckbox{
+    margin-top: 3%;
+    width: 79%;
+    margin-left: 10%;
+    display: flex;
+}
+.typecheckbox input{
+    margin-left: 3%;
+}
+.typecheckbox h4{
+    margin-left: 1%;
+}
