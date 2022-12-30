@@ -159,7 +159,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_1::before {
   content: "";
   position: absolute;
-  top: 20%;
+  top: 11%;
   left: 22%;
   height: 0.5rem;
   width: 75%;
@@ -168,7 +168,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_1::after {
   content: "";
   position: absolute;
-  top: 20%;
+  top: 11%;
   left: 22%;
   height: 0.5rem;
   width: 72%;
@@ -200,7 +200,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_2::before {
   content: "";
   position: absolute;
-  top: 46%;
+  top: 28%;
   left: 22%;
   height: 0.5rem;
   width: 75%;
@@ -209,7 +209,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_2::after {
   content: "";
   position: absolute;
-  top: 46%;
+  top: 28%;
   left: 22%;
   height: 0.5rem;
   width: 69%;
@@ -241,7 +241,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_3::before {
   content: "";
   position: absolute;
-  top: 69%;
+  top: 44%;
   left: 22%;
   height: 0.5rem;
   width: 75%;
@@ -250,7 +250,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_3::after {
   content: "";
   position: absolute;
-  top: 69%;
+  top: 44%;
   left: 22%;
   height: 0.5rem;
   width: 65%;
@@ -282,7 +282,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_4::before {
   content: "";
   position: absolute;
-  top: 93%;
+  top: 61%;
   left: 22%;
   height: 0.5rem;
   width: 75%;
@@ -291,7 +291,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
 main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_4::after {
   content: "";
   position: absolute;
-  top: 93%;
+  top: 61%;
   left: 22%;
   height: 0.5rem;
   width: 62%;
@@ -315,6 +315,72 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
   }
   to {
     width: 62%;
+  }
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_5 {
+  margin-left: 6%;
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_5::before {
+  content: "";
+  position: absolute;
+  top: 78%;
+  left: 22%;
+  height: 0.5rem;
+  width: 75%;
+  background-color: rgb(189, 189, 189);
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_5::after {
+  content: "";
+  position: absolute;
+  top: 78%;
+  left: 22%;
+  height: 0.5rem;
+  width: 52%;
+  background-color: #FDCA4B;
+  -webkit-animation-name: example4;
+          animation-name: example4;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+@keyframes example4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 52%;
+  }
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_6 {
+  margin-left: 6%;
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_6::before {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: 22%;
+  height: 0.5rem;
+  width: 75%;
+  background-color: rgb(189, 189, 189);
+}
+main .about_me .about_me__description .description_skill_chart .skill_chart__skills #skill_6::after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: 22%;
+  height: 0.5rem;
+  width: 42%;
+  background-color: #FDCA4B;
+  -webkit-animation-name: example4;
+          animation-name: example4;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+@keyframes example4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 42%;
   }
 }
 main .education {

@@ -207,7 +207,7 @@
                         #skill_1::before {
                             content: "";
                             position: absolute;
-                            top: 20%;
+                            top: 11%;
                             left: 22%;
                             height: 0.5rem;
                             width: 75%;
@@ -217,7 +217,7 @@
                         #skill_1::after {
                             content: "";
                             position: absolute;
-                            top: 20%;
+                            top: 11%;
                             left: 22%;
                             height: 0.5rem;
                             width: 72%;
@@ -238,7 +238,7 @@
                         #skill_2::before {
                             content: "";
                             position: absolute;
-                            top: 46%;
+                            top: 28%;
                             left: 22%;
                             height: 0.5rem;
                             width: 75%;
@@ -248,7 +248,7 @@
                         #skill_2::after {
                             content: "";
                             position: absolute;
-                            top: 46%;
+                            top: 28%;
                             left: 22%;
                             height: 0.5rem;
                             width: 69%;
@@ -269,7 +269,7 @@
                         #skill_3::before {
                             content: "";
                             position: absolute;
-                            top: 69%;
+                            top: 44%;
                             left: 22%;
                             height: 0.5rem;
                             width: 75%;
@@ -279,9 +279,7 @@
                         #skill_3::after {
                             content: "";
                             position: absolute;
-
-                            top: 69%;
-
+                            top: 44%;
                             left: 22%;
                             height: 0.5rem;
                             width: 65%;
@@ -301,7 +299,7 @@
                         #skill_4::before {
                             content: "";
                             position: absolute;
-                            top: 93%;
+                            top: 61%;
                             left: 22%;
                             height: 0.5rem;
                             width: 75%;
@@ -311,7 +309,7 @@
                         #skill_4::after {
                             content: "";
                             position: absolute;
-                            top: 93%;
+                            top: 61%;
                             left: 22%;
                             height: 0.5rem;
                             width: 62%;
@@ -322,6 +320,66 @@
                         @keyframes example4 {
                             from { width: 0%;}
                             to { width: 62%;}
+                          }
+
+                          #skill_5 {
+                            margin-left: 6%;
+                        }
+
+                        #skill_5::before {
+                            content: "";
+                            position: absolute;
+                            top: 78%;
+                            left: 22%;
+                            height: 0.5rem;
+                            width: 75%;
+                            background-color: rgb(189, 189, 189);
+                        }
+
+                        #skill_5::after {
+                            content: "";
+                            position: absolute;
+                            top: 78%;
+                            left: 22%;
+                            height: 0.5rem;
+                            width: 52%;
+                            background-color:#FDCA4B;
+                            animation-name: example4;
+                          animation-duration: 6s;
+                        }
+                        @keyframes example4 {
+                            from { width: 0%;}
+                            to { width: 52%;}
+                          }
+
+                          #skill_6 {
+                            margin-left: 6%;
+                        }
+
+                        #skill_6::before {
+                            content: "";
+                            position: absolute;
+                            top: 95%;
+                            left: 22%;
+                            height: 0.5rem;
+                            width: 75%;
+                            background-color: rgb(189, 189, 189);
+                        }
+
+                        #skill_6::after {
+                            content: "";
+                            position: absolute;
+                            top: 95%;
+                            left: 22%;
+                            height: 0.5rem;
+                            width: 42%;
+                            background-color:#FDCA4B;
+                            animation-name: example4;
+                          animation-duration: 6s;
+                        }
+                        @keyframes example4 {
+                            from { width: 0%;}
+                            to { width: 42%;}
                           }
                     }
                 }

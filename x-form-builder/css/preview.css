@@ -28,6 +28,7 @@ main{
 display: flex;
 margin-top: 1%;
 margin-bottom: 3%;
+justify-content: center;
 }
 
 footer{
@@ -45,9 +46,11 @@ footer{
    
 }
 
-
-.main_comman{
+.img_div{
     width: 50%;
+}
+.main_comman{
+   width: 50%;
     box-shadow: 10px 5px 5px grey;
     visibility: hidden;
 }
