@@ -132,3 +132,34 @@ function myFunction() {
 
 
 //   if(e.target.style.backGround.color==='white')
+
+
+let img1 = document.getElementById('alice1');
+let img2 = document.getElementById('alice2');
+let img3 = document.getElementById('alice3');
+
+let aliceTumbling = [
+    {
+        transform: 'rotate(0) scale(3)'
+    },
+    {
+        transform: 'rotate(360deg) scale(1)'
+    }
+]
+
+let aliceTiming = {
+    duration: 2000,
+    iterations: 1,
+    fill: 'forwards'
+}
+
+
+async function rotateImage() {
+
+    await img1.animate(aliceTumbling, aliceTiming).finished;
+    await img2.animate(aliceTumbling, aliceTiming).finished;
+    await img3.animate(aliceTumbling, aliceTiming)
+  
+}
+
+

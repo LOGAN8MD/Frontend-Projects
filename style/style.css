@@ -665,6 +665,22 @@ main .animations .image_gallery .black {
   background-color: #000;
   margin-top: 5rem;
 }
+main .animations .image_gallery .alice-contianer {
+  cursor: pointer;
+  width: 90vh;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "a1 . ." ". a2 ." ". . a3";
+}
+main .animations .image_gallery #alice1 {
+  grid-area: a1;
+}
+main .animations .image_gallery #alice2 {
+  grid-area: a2;
+}
+main .animations .image_gallery #alice3 {
+  grid-area: a3;
+}
 main .git {
   text-align: center;
 }
