@@ -384,6 +384,7 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
   }
 }
 main .education {
+  border: 2px solid grey;
   background-color: #f5f5f5;
 }
 main .education .section__heading {
@@ -443,6 +444,7 @@ main .projects .project_cards .project .project_button:hover {
   background-color: #000000;
 }
 main .animations {
+  border: 2px solid grey;
   text-align: center;
   background-color: #f1f1f1;
 }
@@ -688,6 +690,7 @@ main .git .git_heading {
   margin: 2rem;
 }
 main .git .git_activity {
+  border: 2px solid grey;
   background-color: #f5f5f5;
 }
 main .git .git_activity img {
@@ -715,6 +718,7 @@ main .resume button:hover {
   cursor: pointer;
 }
 main .contact {
+  border: 2px solid grey;
   background-color: #f5f5f5;
   text-align: center;
 }
