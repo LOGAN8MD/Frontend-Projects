@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-.cards_div, main .animations .image_gallery, main .projects .project_cards, main .education .education_container {
+.cards_div, main .animations .image_gallery, main .projects .project_cards, main .education .education_container, main .professional .professional_container {
   width: 88%;
   margin-left: 6%;
   display: flex;
@@ -15,7 +15,7 @@
   margin-top: 1rem;
 }
 
-.card, main .animations .image_gallery .image_card, main .projects .project_cards .project, main .education .education_container .education_card {
+.card, main .animations .image_gallery .image_card, main .projects .project_cards .project, main .education .education_container .education_card, main .education .education_container .education_card, main .professional .professional_container .professional_card {
   width: 30%;
   text-align: center;
   align-items: center;
@@ -383,6 +383,37 @@ main .about_me .about_me__description .description_skill_chart .skill_chart__ski
     width: 42%;
   }
 }
+
+main .professional {
+  border: 2px solid grey;
+  background-color: #f5f5f5;
+}
+main .professional .section__heading {
+  text-align: center;
+}
+main .professional .section__heading h2 {
+  padding: 2rem;
+}
+main .professional .professional_container .professional_card {
+  width: 35%;
+  text-align: start;
+  padding: 2rem;
+}
+main .professional .professional_container .professional_card h3 {
+  color: #FDCA4B;
+  font-size: 1.5rem;
+}
+main .professional .professional_container .professional_card sub {
+  font-size: 1.5rem;
+}
+main .professional .professional_container .professional_card p {
+  font-size: 1.0rem;
+}
+main .professional .professional_container .professional_card .grade {
+  font-size: 1.0rem;
+}
+
+
 main .education {
   border: 2px solid grey;
   background-color: #f5f5f5;
